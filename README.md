@@ -16,7 +16,7 @@ This project is a python based data analysis script to report on city bikeshare 
 
 * README.md
 * bikeshare_2.py 
-* .gitingore (remove data files from remote repository)
+* .gitignore (remove data files from remote repository)
 * DataFiles/
   * chicago.csv
   * new_york_city.csv
