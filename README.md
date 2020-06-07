@@ -2,7 +2,6 @@
 
 ### Bikeshare Python Analysis Project
 
-
 ### Description
 This project is a python based data analysis script to report on city bikeshare usage in three different cities. It will ask a user to specify a city, month, and day to analyze. The output of running the analysis:
 * Displays statistics on the most frequent times of travel.
@@ -10,7 +9,6 @@ This project is a python based data analysis script to report on city bikeshare 
 * Displays statistics on the total and average trip duration.
 * Displays statistics on bikeshare users.
 * Displays 5 rows of raw data at a time. _(Optional on request)_
-
 
 ### Files used
 
