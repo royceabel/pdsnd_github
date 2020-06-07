@@ -1,15 +1,28 @@
-### Date created
-Include the date you created this project and README file.
+### June 7th 2020
 
-### Project Title
-Replace the Project Title
+### Bikeshare Python Analysis Project
+
 
 ### Description
-Describe what your project is about and what it does
+This project is a python based data analysis script to report on city bikeshare usage in three different cities. It will ask a user to specify a city, month, and day to analyze. The output of running the analysis:
+* Displays statistics on the most frequent times of travel.
+* Displays statistics on the most popular stations and trip.
+* Displays statistics on the total and average trip duration.
+* Displays statistics on bikeshare users.
+* Displays 5 rows of raw data at a time. _(Optional on request)_
+
 
 ### Files used
-Include the files used
 
+* README.md
+* bikeshare_2.py 
+* .gitingore (remove data files from remote repository)
+* DataFiles/
+  * chicago.csv
+  * new_york_city.csv
+  * washington.csv
+ 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Project forked from https://github.com/udacity/pdsnd_github
+
 
