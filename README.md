@@ -24,5 +24,6 @@ This project is a python based data analysis script to report on city bikeshare 
  
 ### Credits
 Project forked from https://github.com/udacity/pdsnd_github
+Udacity class for providing template python file structure
 
 
