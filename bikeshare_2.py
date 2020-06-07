@@ -6,7 +6,7 @@ import calendar
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-months = ['january', 'february', 'march', 'april', 'may', 'june']
+MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
 pd.set_option('display.max_columns', 20)
 pd.set_option('display.width', 120)
 
@@ -32,7 +32,7 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
     while True:
         month = input("Filter by a month? or ALL\n\t").lower().strip()
-        if month in months or month == 'all':
+        if month in MONTHS or month == 'all':
             break
         else:
             print("Enter in January, February, ... June")
@@ -72,8 +72,7 @@ def load_data(city, month, day):
     # filter by month if applicable
     if month != 'all':
         # use the index of the months list to get the corresponding int
-        months = ['january', 'february', 'march', 'april', 'may', 'june']
-        month = months.index(month) + 1
+        month = MONTHS.index(month) + 1
     
         # filter by month to create the new dataframe
         df = df[df['month'] == month]
