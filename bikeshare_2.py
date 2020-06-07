@@ -69,8 +69,6 @@ def load_data(city, month, day):
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.dayofweek
 
-    #print(df.head())
-
     # filter by month if applicable
     if month != 'all':
         # use the index of the months list to get the corresponding int
@@ -174,9 +172,7 @@ def print_raw_data(df):
     show_raw_data = 'yes'
     #Removing Columns that were part of the raw data and also removed the first column which was never used.   
     df.drop(["Unnamed: 0","month","day_of_week","hour"],axis=1,inplace=True)
-    #df.drop("month",axis=1,inplace=True)
-    #df.drop("day_of_week",axis=1,inplace=True)
-    #df.drop("hour",axis=1,inplace=True)
+
     while True:
         if show_raw_data.lower() == 'yes':
             print("\n",df[index:index+5])
